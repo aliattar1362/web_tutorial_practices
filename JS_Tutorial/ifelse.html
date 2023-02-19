@@ -1,0 +1,40 @@
+
+<html>
+	<head>
+		<title>f / Else</title>
+
+		<!-- Normalize.css -->
+		<link rel="stylesheet" type="text/css" href="normalize.css">
+
+	</head>
+	<body>
+
+	<h1>If / Else</h1>
+
+		<div id="box1"></div>
+
+		<script type="text/javascript">
+
+			var age = 32;
+
+			if(age < 30) {
+				document.getElementById("box1").innerHTML = "You're such a young boy that cannot manage the mariage!";
+                document.getElementById("box1").style.color = "red";
+			} 
+            
+            else if(age > 50) {
+                document.getElementById("box1").innerHTML = "You're older than 50, What's your achievments till now?!";
+
+				document.getElementById("box1").style.color = "yellow";
+			} 
+            
+            else {
+				document.getElementById("box1").innerHTML = "It seems that you're grown up!";
+
+				document.getElementById("box1").style.color = "green";
+			}
+
+		</script>
+
+	</body>
+</html>

@@ -1,0 +1,44 @@
+
+<html>
+	<head>
+		<title>Arrays</title>
+
+		<!-- Normalize.css -->
+		<link rel="stylesheet" type="text/css" href="normalize.css">
+
+	</head>
+	<body>
+
+	<h1>Arrays</h1>
+
+		<script type="text/javascript">
+
+		var myVariable = "sand, shovel, water";
+		
+		var myArray = ["sand" , "shovel" , "water"];
+
+		document.write(myArray[0]+ "<br><br>");
+
+		var favFoods = ["pizza" , "rice" , "pineapple" , "peach"];
+            
+        for (var i = 0; i < favFoods.length; i++){
+			document.write(favFoods[i] + "<br>");
+		}
+
+		for (var i = favFoods.length - 1; i >= 0; i--)
+		{
+			document.write("<br>" + favFoods[i] + "  ");
+		}
+
+		var myFriends = [
+			["Kaveh" , "male" , 32],
+			["Nilo" , "Female" , 26],
+			["Sina" , "male" , 29]
+		];
+
+		document.write("<br><br>"+myFriends[0][1]);
+
+		</script>
+
+	</body>
+</html>
