@@ -1,0 +1,233 @@
+/* styles.css */
+
+body {
+	text-align: center;
+}
+
+#box {
+	height: 200px;
+	width: 200px;
+	background: #fc3;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 200px;
+}
+
+.thing {
+	height: 200px;
+	width: 200px;
+	background: #ac3;
+	margin: 20px auto;
+	text-align: center;
+	line-height: 200px;
+	border-top-left-radius: 200px;
+}
+
+button {
+	background: #933;
+}
+
+/* ---------------------------
+   STYLES FOR jQUERY CHAINING
+   -------------------------- */
+
+.notification-bar {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #333;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+.notification-bar a {
+	color: #fc3;
+}
+
+/* -------------------------------
+   Hiding & Showing jQuery Lecture
+   ------------------------------- */
+
+div.hidden {
+	display: none;
+}
+
+#box1 {
+	height: 100px;
+	width: 100px;
+	background: black;
+	color: white;
+	border: solid 4px #333;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 100px;
+}
+
+/* ----------------------
+   jQuery Animate Lecture
+   ---------------------- */
+
+#navArrow {
+	position: relative;
+	width: 150px;
+   	height: 150px;
+   	margin: 100px auto 0;
+   	background: #333;
+   	-webkit-border-radius: 100px;
+   	-moz-border-radius: 100px;
+   	border-radius: 100px;
+   	padding: 20px;
+}
+
+.navigationArrow {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 50px;
+   	height: 50px;
+   	line-height: 50px;
+   	margin: 0;
+   	background: white;
+   	color: #222;
+   	padding: 0;
+}
+
+#up {
+	left: 50%;
+	margin-left: -25px;
+}
+
+#left, #right {
+	top: 50%;
+	margin-top: -25px;
+}
+
+#right {
+	right: 20px;
+	left: inherit;
+}
+
+#down {
+	bottom: 20px;
+	top: inherit;
+	left: 50%;
+	margin-left: -25px;
+}
+
+.box {
+	height: 100px;
+	width: 100px;
+	background: #a7f;
+	color: white;
+	border: solid 4px #a1f;
+	line-height: 100px;
+	margin: 100px auto 0;
+	opacity: 0.5;
+
+/* for position properties to work in jQuery animate,
+   you need to make sure the element being animated has
+   a position property defined */
+
+	position: relative;
+}
+
+/* ------------------
+   jQUERY CSS LECTURE
+   ------------------ */
+
+#circle1 {
+	display: inline-block;
+	background: #8a8d22;
+	color: white;
+	text-align: center;
+	line-height: 140px;
+	height: 140px;
+	width: 140px;
+	margin: 40PX;
+}
+
+.circleShape {
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+}
+
+/* ------------------
+    jQUERY CAR RACE
+   ------------------ */
+
+#racetrack {
+	background: #333;
+	height: 370px;
+	border-right: dashed 10px white;
+	box-sizing: border-box;
+	margin: 40px 0;
+}
+
+.car {
+	display: block;
+	position: relative;
+	/*width: 600px;*/
+}
+
+#car1 { top: 30px; }
+#car2 { top: 100px; }
+
+#raceInfoContainer {
+	width: 80%;
+	margin: 40px auto 0;
+	background: #333;
+	height: 200px;
+}
+
+#raceInfoContainer h2 {
+	color: white;
+	text-transform: uppercase;
+	border-bottom: solid 1px white;
+	padding: 20px 0;
+}
+
+.raceInfo {
+	font-size: 24px;
+	font-weight: bold;
+	color: white;
+	width: 50%;
+	float: left;
+}
+
+.raceInfo span {
+	display: block;
+	font-weight: normal;
+	font-size: 18px;
+	color: white;
+}
+
+#raceInfo1 {
+	color: #fc3;
+}
+
+#raceInfo2 {
+	color: #33e;
+}
+
+input[type="button"] {
+	cursor: pointer;
+	background: #77b72f;
+	color: white;
+	padding: 10px 20px;
+	border: solid 1px #444;
+}
+
+input#reset {
+	background: #fc3;
+	color: #444;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
